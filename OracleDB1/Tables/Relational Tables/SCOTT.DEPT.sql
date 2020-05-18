@@ -1,0 +1,7 @@
+-- ****** Object: RelationalTable SCOTT.DEPT Script Date: 4/30/2020 6:38:46 PM ******
+  CREATE TABLE "SCOTT"."DEPT" 
+   (	"DEPTNO" NUMBER(2,0),
+	"DNAME" VARCHAR2(14),
+	"LOC" VARCHAR2(13),
+	CONSTRAINT "PK_DEPT" PRIMARY KEY ("DEPTNO") ENABLE
+   );
